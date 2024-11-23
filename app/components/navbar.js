@@ -15,14 +15,14 @@ const Navbar = () => {
                     <Link href="/about">About</Link>
                 </li>
                 <li className="hover:text-purple-700 transition-colors duration-300">
-                    <Link href="/generate">Shorten</Link>
+                    <Link href="/shorten">Shorten</Link>
                 </li>
                 <li className="hover:text-purple-700 transition-colors duration-300">
                     <Link href="/contact">Contact us</Link>
                 </li>
             </ul>
             <div className="flex gap-6">
-                <Link href="/generate">
+                <Link href="/shorten">
                     <button className="bg-green-500 text-white px-5 py-2 rounded-lg border border-green-700 shadow-md hover:bg-green-700 hover:shadow-lg transition-all duration-300">
                         Try Now
                     </button>

@@ -29,7 +29,7 @@ export default function Home() {
         </div>
         <div className="relative">
           <Image
-            src="https://source.unsplash.com/featured/?technology,link"
+            src="/Images/url.png"
             alt="Hero Illustration"
             width={500}
             height={500}
@@ -47,7 +47,7 @@ export default function Home() {
           {/* Feature 1 */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <Image
-              src="https://source.unsplash.com/100x100/?easy"
+              src="/Images/hello.png"
               alt="Easy to Use"
               width={100}
               height={100}
@@ -61,11 +61,11 @@ export default function Home() {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <Image
-              src="https://source.unsplash.com/100x100/?analytics,graph"
+              src="/Images/img24-7.png"
               alt="Detailed Analytics"
               width={100}
               height={100}
-              className="mx-auto"
+              className="mx-auto mix-blend-difference"
             />
             <h3 className="text-xl font-bold text-center mt-4">
               Detailed Analytics
@@ -78,7 +78,7 @@ export default function Home() {
           {/* Feature 3 */}
           <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow">
             <Image
-              src="https://source.unsplash.com/100x100/"
+              src="/Images/pin.png"
               alt="Custom Links"
               width={100}
               height={100}
